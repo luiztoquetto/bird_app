@@ -1,0 +1,6 @@
+{
+	"appId": "com.liga.birdapp",
+	"appName": "app",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
