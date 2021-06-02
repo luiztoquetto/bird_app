@@ -74,6 +74,12 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  /** bird-app **/
+  --bird-primary: #3dd598;
+  --bird-dark: #30444e;
+  --bird-darker: #1f2e35;
+  --bird-dark-contrast: #96a7af;
 }
 
 @media (prefers-color-scheme: dark) {
