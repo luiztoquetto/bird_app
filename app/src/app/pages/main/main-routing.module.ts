@@ -11,9 +11,9 @@ const routes: Routes = [
 
       { path: 'categories', loadChildren: () => import('./categories/categories.module').then( m => m.CategoriesPageModule ) },
 
-      { path: 'all_comments', loadChildren: () => import('./all-comments/all-comments.module').then( m => m.AllCommentsPageModule ) },
+      { path: 'all-comments', loadChildren: () => import('./all-comments/all-comments.module').then( m => m.AllCommentsPageModule ) },
 
-      { path: 'my_comments', loadChildren: () => import('./my-comments/my-comments.module').then( m => m.MyCommentsPageModule ) },
+      { path: 'my-comments', loadChildren: () => import('./my-comments/my-comments.module').then( m => m.MyCommentsPageModule ) },
     ],
   },
   {
