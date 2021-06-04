@@ -7,14 +7,18 @@ import { IonicModule } from '@ionic/angular';
 import { AllCommentsPageRoutingModule } from './all-comments-routing.module';
 
 import { AllCommentsPage } from './all-comments.page';
+import { CommentItemModule } from 'src/app/components/comment-item/comment-item.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    AllCommentsPageRoutingModule
+    AllCommentsPageRoutingModule,
+    CommentItemModule,
   ],
-  declarations: [AllCommentsPage]
+  declarations: [
+    AllCommentsPage,
+  ]
 })
 export class AllCommentsPageModule {}
